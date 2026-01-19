@@ -20,13 +20,13 @@ nav{
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin-left: 13px;
+    margin-left: 19px;
 }
 
 nav ul {
     display: flex;
     align-items: center;
-    margin-right: 13px;
+    margin-right: 18px;
 }
 
 ul li{
@@ -46,3 +46,18 @@ ul li a:hover,ul li a.active{
     font-weight: 600;
 }
 
+.icone{
+    display: none;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 13px;
+}
+
+@media only screen and (max-width:610px){
+    nav ul{
+        display: none;
+    }
+    .icone{
+        display: flex;
+    }
+}

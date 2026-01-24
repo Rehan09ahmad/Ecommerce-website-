@@ -46,7 +46,7 @@ ul li a:hover,ul li a.active{
     font-weight: 600;
 }
 
-.icone{
+.icon{
     display: none;
     align-items: center;
     font-size: 30px;
@@ -57,7 +57,24 @@ ul li a:hover,ul li a.active{
     nav ul{
         display: none;
     }
-    .icone{
+    .icon{
         display: flex;
+    }
+    .ShowData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 45px;
+        background-color: gray;
+        height: 300px;
+        width: 200px;
+        left: 36%;
+        border-bottom-left-radius: 10%;
+
+
+
+
     }
 }

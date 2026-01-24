@@ -1,80 +1,91 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 
-body{
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(156, 149, 149);
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(156, 149, 149);
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(1, 1, 21);
-    color: white;
-    height: 60px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 1, 21);
+  color: white;
+  height: 60px;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    margin-left: 19px;
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 19px;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    margin-right: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
 }
 
-ul li{
-   list-style: none;
+ul li {
+  list-style: none;
 }
 
-ul li a{
-    text-decoration: none;
-    color: white;
-    margin-inline: 20px;
-    font-size: 20px;
-    transition: all 0.5s;
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin-inline: 20px;
+  font-size: 20px;
+  transition: all 0.5s;
 }
 
-ul li a:hover,ul li a.active{
-    color: aqua;
-    font-weight: 600;
+ul li a:hover,
+ul li a.active {
+  color: aqua;
+  font-weight: 600;
 }
 
-.icon{
+.icon {
+  display: none;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 13px;
+}
+
+@media only screen and (max-width: 610px) {
+  nav ul {
     display: none;
+  }
+  .icon {
+    display: flex;
+  }
+  .ShowData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-size: 30px;
-    margin-right: 13px;
+    position: absolute;
+    top: 45px;
+    background-color: rgb(105, 105, 105);
+    height: 300px;
+    width: 250px;
+    left: 36%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    text-align: center;
+    gap: 25px;
+    padding: 10px;
+
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: all 0.6s ease;
+  }
+  .ShowData.active{
+    height: 300px;
+    opacity: 1;
+    transform: translateY(0);
 }
 
-@media only screen and (max-width:610px){
-    nav ul{
-        display: none;
-    }
-    .icon{
-        display: flex;
-    }
-    .ShowData{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 45px;
-        background-color: gray;
-        height: 300px;
-        width: 200px;
-        left: 36%;
-        border-bottom-left-radius: 10%;
-
-
-
-
-    }
 }

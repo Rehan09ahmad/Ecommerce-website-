@@ -67,7 +67,7 @@ ul li a.active {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 45px;
+    top: 54px;
     background-color: rgb(105, 105, 105);
     height: 300px;
     width: 250px;
@@ -77,15 +77,7 @@ ul li a.active {
     text-align: center;
     gap: 25px;
     padding: 10px;
-
-    overflow: hidden;
-    transform: translateY(-10px);
-    transition: all 0.6s ease;
+    
   }
-  .ShowData.active{
-    height: 300px;
-    opacity: 1;
-    transform: translateY(0);
-}
 
 }

@@ -77,7 +77,16 @@ ul li a.active {
     text-align: center;
     gap: 25px;
     padding: 10px;
-    
+
   }
 
+}
+
+.main{
+  display: flex;
+}
+
+img{
+  height: 150px;
+  width: 150px;
 }

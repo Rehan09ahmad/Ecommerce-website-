@@ -5,7 +5,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: rgb(156, 149, 149);
+  background-color: rgb(194, 193, 193);
 }
 
 nav {
@@ -14,6 +14,9 @@ nav {
   background-color: rgb(1, 1, 21);
   color: white;
   height: 60px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
 }
 
 .logo {
@@ -54,6 +57,58 @@ ul li a.active {
   margin-right: 13px;
 }
 
+.main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 155px;
+  background-color: brown;
+}
+
+.mainText h1{
+  font-size: 55px;
+  color: rgb(0, 139, 139);
+}
+.mainText h2{
+  font-size: 33px;
+}
+
+.mainText button{
+  width: 120px;
+  height: 34px;
+  background-color: rgb(2, 111, 111);
+  color: white;
+  font-size: 18px;
+  border: none;
+
+}
+.mainText button:hover{
+  background-color: transparent;
+  border: 2px solid rgb(6, 158, 158);
+  color: black;
+  cursor: pointer;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.cards .crd{
+  margin-inline:22px;
+  text-align: center;
+}
+.crd i{
+  color: rgb(206, 83, 7);
+}
+
+.crd img{
+  height: 350px;
+  width: 300px;
+}
+
+
+
 @media only screen and (max-width: 610px) {
   nav ul {
     display: none;
@@ -80,13 +135,4 @@ ul li a.active {
 
   }
 
-}
-
-.main{
-  display: flex;
-}
-
-img{
-  height: 150px;
-  width: 150px;
 }

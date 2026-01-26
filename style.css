@@ -126,6 +126,12 @@ ul li a.active {
   display: flex;
   justify-content: center;
 }
+.reviews .rCard{
+  width: 260px;
+  height: 240px;
+  background-color: #fff;
+  text-align: center;
+}
 
 .rcard img{
   width: 200px;

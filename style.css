@@ -93,6 +93,8 @@ ul li a.active {
 .cards{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 .cards .crd{
   margin-inline:22px;
@@ -100,12 +102,50 @@ ul li a.active {
 }
 .crd i{
   color: rgb(206, 83, 7);
+  position: relative;
+  top: -11px;
+}
+.crd h3{
+  margin-top: 1px;
 }
 
 .crd img{
   height: 350px;
   width: 300px;
 }
+
+.head{
+  padding: 55px;
+  text-align: center;
+}
+.head span{
+  color: orangered;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+}
+
+.rcard img{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

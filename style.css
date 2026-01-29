@@ -63,7 +63,6 @@ ul li a.active {
   display: flex;
   justify-content: center;
   margin-top: 155px;
-  background-color: brown;
 }
 
 .mainText h1{

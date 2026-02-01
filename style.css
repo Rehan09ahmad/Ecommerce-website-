@@ -58,17 +58,18 @@ ul li a.active {
 }
 
 .main{
-  height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 155px;
+  
 }
 
 .mainText h1{
   font-size: 55px;
-  color: rgb(0, 139, 139);
+  color: rgb(11, 166, 166);
+
 }
+
 .mainText h2{
   font-size: 33px;
 }
@@ -76,17 +77,25 @@ ul li a.active {
 .mainText button{
   width: 120px;
   height: 34px;
-  background-color: rgb(2, 111, 111);
+  background-color: rgb(0, 109, 109);
   color: white;
   font-size: 18px;
   border: none;
-
 }
 .mainText button:hover{
+  border: 2px solid rgb(11, 132, 132);
   background-color: transparent;
-  border: 2px solid rgb(6, 158, 158);
-  color: black;
+  color: rgb(11, 126, 126);
   cursor: pointer;
+}
+
+.head{
+  padding: 55px;
+  text-align: center;
+}
+
+.head span{
+  color: orangered;
 }
 
 .cards{
@@ -95,50 +104,41 @@ ul li a.active {
   margin-top: 20px;
   flex-wrap: wrap;
 }
+
 .cards .crd{
-  margin-inline:22px;
+  margin-inline: 22px;
   text-align: center;
+}
+.crd img{
+  width: 300px;
+  height: 340px;
 }
 .crd i{
-  color: rgb(206, 83, 7);
+  color: rgb(248, 138, 3);
   position: relative;
-  top: -11px;
+  top: -10px;
 }
 .crd h3{
-  margin-top: 1px;
+  margin-top: 0%;
 }
 
-.crd img{
-  height: 350px;
-  width: 300px;
-}
-
-.head{
-  padding: 55px;
-  text-align: center;
-}
-.head span{
-  color: orangered;
-}
-
+/* reviews */
 .reviews{
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
+
 .reviews .rCard{
   width: 260px;
   height: 240px;
-  background-color: #fff;
+  background-color: white;
   text-align: center;
+  padding: 13px;
 }
-
-.rcard img{
-  width: 200px;
-  height: 200px;
+.rCard img{
+  width:42%;
+  border-radius: 50%;
 }
-
-
-
 
 
 

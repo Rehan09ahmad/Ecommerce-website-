@@ -11,7 +11,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(1, 1, 21, 0.984);
+  background-color: rgb(1, 1, 21);
   color: white;
   height: 60px;
   position: fixed;

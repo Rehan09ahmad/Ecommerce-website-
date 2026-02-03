@@ -126,6 +126,7 @@ ul li a.active {
 .reviews{
   display: flex;
   justify-content:center;
+  flex-wrap: wrap;
 }
 
 .reviews .rCard{
@@ -133,15 +134,28 @@ ul li a.active {
   height: 240px;
   background-color: white;
   text-align: center;
-  padding: 13px;
+  padding: 16px;
   margin-inline: 20px;
 }
 .rCard img{
   width:42%;
   border-radius: 50%;
 }
+.rCard button{
+  width: 90px;
+  height: 30px;
+  background-color: rgb(10, 180, 180);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+}
 
-
+.rCard button:hover{
+  background-color: transparent;
+  color: rgb(10, 201, 201);
+  border: 2px solid rgb(6, 206, 206);
+}
 
 
 

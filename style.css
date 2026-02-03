@@ -194,7 +194,30 @@ ul li a.active {
   cursor: pointer;
 }
 
+/* connect */
 
+.connect{
+  text-align: center;
+}
+
+.connect input{
+  width: 380px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: transparent;
+  margin-top: 11px;
+  border: 2px solid black;
+}
+
+.connect button{
+  width: 130px;
+  height: 36px;
+  background-color: rgb(0, 174, 174);
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 22px;
+}
 
 
 

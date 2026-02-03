@@ -134,6 +134,7 @@ ul li a.active {
   background-color: white;
   text-align: center;
   padding: 13px;
+  margin-inline: 20px;
 }
 .rCard img{
   width:42%;

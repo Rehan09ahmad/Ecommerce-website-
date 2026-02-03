@@ -141,6 +141,10 @@ ul li a.active {
   width:42%;
   border-radius: 50%;
 }
+.rCard:hover{
+  background-color: gray;
+  transition: 1s ease-in;
+}
 .rCard button{
   width: 90px;
   height: 30px;
@@ -155,10 +159,39 @@ ul li a.active {
   background-color: transparent;
   color: rgb(10, 201, 201);
   border: 2px solid rgb(6, 206, 206);
+  cursor: pointer;
 }
 
+/* blog  */
+.blog{
+  display: flex;
+  justify-content: center;
+}
+.blog .blogCard{
+  width: 300px;
+  text-align: center;
+  background-color: #fff;
+  margin-inline: 22px;
+  padding: 11px;
+  border: 5px;
+}
+.blogCard img{
+  width: 100%;
+  border-radius: 5px;
+}
 
+.blog .blogCard a{
+  padding: 4px 20px;
+  background-color: rgb(1, 194, 194);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
 
+.blogCard:hover{
+  background-color: gray;
+  transition: 1s ease-in;
+}
 
 
 

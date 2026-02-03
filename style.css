@@ -166,6 +166,7 @@ ul li a.active {
 .blog{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .blog .blogCard{
   width: 300px;
@@ -221,6 +222,18 @@ ul li a.active {
 }
 
 
+/* footer */
+.footer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  padding: 44px;
+  margin-top: 40px;
+
+}
+
 
 
 
@@ -240,17 +253,40 @@ ul li a.active {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 54px;
-    background-color: rgb(105, 105, 105);
+    top: 40px;
+    background-color: rgba(105, 105, 105, 0.68);
     height: 300px;
-    width: 250px;
-    left: 36%;
-    border-bottom-left-radius: 10%;
-    border-top-left-radius: 10%;
+    width: 100%;
     text-align: center;
     gap: 25px;
     padding: 10px;
-
+  }
+  .mainText h1{
+    font-size: 4p5x;
   }
 
+  .mainText h2{
+    font-size: 25px;
+  }
+  .crd img{
+    width: 80%;
+  }
+  .connect input{
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .main img{
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .main{
+    display: block;
+    text-align: center;
+  }
+  .main img{
+    margin-top: 40px;
+  }
 }

@@ -189,8 +189,9 @@ ul li a.active {
 }
 
 .blogCard:hover{
-  background-color: gray;
+  background-color: rgb(189, 187, 187);
   transition: 1s ease-in;
+  cursor: pointer;
 }
 
 

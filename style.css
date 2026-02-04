@@ -46,7 +46,7 @@ ul li a {
 
 ul li a:hover,
 ul li a.active {
-  color: aqua;
+  color: #00ffff;
   font-weight: 600;
 }
 

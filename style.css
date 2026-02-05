@@ -235,6 +235,36 @@ ul li a.active {
 }
 
 
+/* item page css */
+.ItemPage{
+  display: none;
+  margin-top: 33px;
+  margin-left: 25px;
+}
+.ItemPage img{
+  width: 400px;
+}
+
+.ItemPage .ItemText{
+ margin-inline: 24px;
+}
+
+.ItemText h2{
+  color: rgb(0, 175, 0);
+}
+.ItemText input{
+  width: 45px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+.ItemText a{
+  padding: 4px 20px;
+  background-color: orangered;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
 
 
 

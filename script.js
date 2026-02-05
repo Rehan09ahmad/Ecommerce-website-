@@ -45,4 +45,21 @@ contact.addEventListener("click", ()=>{
     shops.style.color="white";
 });
 
+// card js
 
+let crd = document.querySelectorAll(".crd");
+let ItemPage = document.querySelector(".ItemPage");
+let containar = document.querySelector(".containar");
+let itemImg = document.getElementById("itemImg");
+
+console.log(crd);
+
+crd.forEach(function (curValue){
+    curValue.addEventListener("click", function(){
+        ItemPage.style.display="flex";
+        containar.style.display="none";
+
+        let imgsrc = curValue.firstElementChild.src;
+        itemImg.src=imgsrc;
+    })
+})

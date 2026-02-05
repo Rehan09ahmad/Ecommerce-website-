@@ -51,6 +51,8 @@ let crd = document.querySelectorAll(".crd");
 let ItemPage = document.querySelector(".ItemPage");
 let containar = document.querySelector(".containar");
 let itemImg = document.getElementById("itemImg");
+let BuyBtn = document.getElementById("BuyBtn");
+
 
 console.log(crd);
 

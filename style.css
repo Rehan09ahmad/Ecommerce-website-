@@ -264,7 +264,59 @@ ul li a.active {
   color: white;
   font-size: 19px;
   text-decoration: none;
+  cursor: pointer;
 }
+
+.Buypage{
+  width: 40%;
+  background-color: #fff;
+  padding: 22px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: -15%;
+  border-radius: 4px;
+  transform: translate(-50%, 40%);
+
+}
+
+.Buypage .cross{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(170, 170, 170);
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.BuyText input{
+  width: 95%;
+  padding: 7px;
+  border: 2px solid black;
+  margin-top: 8px;
+  font-size: 18px;
+
+}
+
+.BuyText button{
+  width: 120px;
+  height: 34px;
+  background-color: rgb(0, 131, 131);
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 22px;
+}
+
+.BuyText select{
+  padding: 4px;
+  font-size: 18px;
+  
+}
+
+
+
 
 
 
